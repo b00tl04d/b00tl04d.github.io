@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* Experience Icon Style */
+#experience-icon {
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Experiences Styles */
+.experience-grid-container {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    gap: 55px 0px;
+    padding-top: 55px;
+}
+
+.experience-grid-item {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border-radius: 20px;
+    background-color: #fd6165;
+    width: 89%;
+    height: 100%;
+}
+
+.grid-item-layout {
+    display: grid;
+    padding: 10px;
+    grid-template-rows: 0.1fr 1.5fr;
+    grid-template-columns: 350px 1fr;
+    gap: 10px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.grid-item-heading {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding-right: 350px;
+}
+
+.grid-item-image {
+    margin-left: 25px;
+    margin-top: -7px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+}
+
+#soc-image-grid {
+    margin-left: 25px;
+    margin-top: -7px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.soc-image {
+    border: 1px solid black;
+}
+
+.grid-item-paragraph {
+    margin-bottom: 25px;
+    padding-left: 50px;
+}
+
+.centered-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+
+
+/* Timetable Styles */
+#timetable {
+    background-color: white;
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#timetable td.default-cell {
+    border: 1px solid black;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+#timetable td.time-cell-left {
+    text-align: right;
+    color: black;
+    border-top: 1px solid black;
+}
+
+#timetable td.time-cell-right {
+    text-align: left;
+    color: black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+
+/* List of Modules Style */
+#list-of-modules {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}

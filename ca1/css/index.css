@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/* Index Icon Style */
+#index-icon {
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Index Styles */
+div#index-container {
+    display: grid;
+    position: static;
+    top: 20%;
+    width: 100%;
+    height: 2000px;
+    padding: 0;
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+div#about-box {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../images/daftpunk-background.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+div#about-box > p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div#career-box {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ) ,url(../images/coding-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+div#career-box > p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div#experience-box {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../images/sp-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+div#experience-box > p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div#experience-box > h2 {
+    font-weight: bold;
+}
+
+div#experience-box > h2 > strong {
+    color: red;
+}
+
+div#feedback-box {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../images/feedback-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+div#feedback-box > p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.spacer {
+    padding: 20%;
+}
+
+.custom-button {
+    border-radius: 4px;
+    border: 0.5px solid black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    background-color: maroon;
+}
+
+.custom-button:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+}

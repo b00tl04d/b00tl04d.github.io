@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+/* Career Icon Style */
+#career-icon {
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Center Grid Item Style */
+.center-grid-title {
+    padding-top: 28px;
+    text-align: center;
+}
+
+
+/* Module Styles */
+.module-box {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.module-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid white;
+    padding-bottom: 25px;
+    width: 90%;
+    height: 95%;
+}
+
+.module-grid-heading {
+    vertical-align: top;
+    text-align: center;
+}
+
+.module-title {
+    padding-top: 55px;
+    text-align: center;
+}
+
+#center-module-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.module-button {
+    display: flex;
+    border-radius: 4px;
+    border: 0.5px solid black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 4px;
+    font-weight: bold;
+    color: black;
+    background-color: yellow;
+}
+
+.module-button:hover {
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+.module-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.module-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#malware-reverse-engineering-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.module-paragraph {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+
+/* Career Styles */
+.career-box {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.career-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    background-color: #066634;
+    border: 1px solid white;
+    width: 90%;
+    height: 100%;
+}
+
+.career-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.career-title {
+    padding-top: 55px;
+    text-align: center;
+}
+
+.career-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#penetration-tester-image {
+    padding-top: 17px;
+    padding-bottom: 7px;
+}
+
+#incident-responder-image {
+    padding-top: 15px;
+}
+
+#analyst-image {
+    padding-bottom: 8px;
+}
+
+.career-paragraph {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.career-grid-heading {
+    vertical-align: top;
+    text-align: center;
+}
+
+
+/* Cyber NSF Scheme Styles */
+.scheme-container {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.scheme-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #003366;
+    background-image: linear-gradient( rgba(0,0,0,.79), rgba(0,0,0,.79) ) ,url(../images/nsf-scheme-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+    width: 90%;
+    height: 95%;
+}
+
+#cyber-nsf-heading {
+    vertical-align: top;
+    text-align: center;
+}
+
+#cyber-nsf-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+}
+
+.scheme-box #cyber-nsf-button {
+    display: flex;
+    border-radius: 4px;
+    border: 0.5px solid black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 4px;
+    font-weight: bold;
+    color: black;
+    background-color: yellow;
+}
+
+.scheme-box #cyber-nsf-button:hover {
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+.cyber-nsf-paragraph {
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+}
