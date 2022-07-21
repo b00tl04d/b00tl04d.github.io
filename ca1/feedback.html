@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feedback</title>
+            
+        <!-- Icon taken from a screenshot of a gif, Source at: https://tenor.com/view/spirited-away-sootballs-evil-be-gone-soot-gif-12792307 -->
+        <!-- Cropped at: https://crop-circle.imageonline.co/ to make the circle shape -->
+        <link rel="shortcut icon" type="image/jpg" href="images/icon.png">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/feedback.css">
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar -->
+        <nav>
+
+            <!-- Navbar Image taken from a screenshot of a gif, Source at: https://tenor.com/view/spirited-away-sootballs-evil-be-gone-soot-gif-12792307 -->
+            <!-- Cropped at: https://crop-circle.imageonline.co/ to make the circle shape -->
+            <a class="logo" href="index.html"><img src="images/navbar-icon.png" alt="Home" width="45" height="45"></a>
+            <a class="links" href="about.html">About Me</a>
+            <a class="links" href="experience.html">My <strong>SP</strong> Experience</a>
+            <a class="links" href="career.html">Career Prospects</a>
+            <a class="links" href="feedback.html">Feedback</a>
+        </nav>
+
+        <!-- Header -->
+        <header>
+
+            <!-- Header Icon Div -->
+            <div id="feedback-icon">
+
+                <!--Icon Image Source: https://freepikpsd.com/form-icon-png-transparent-images-free/155163/-->
+                <!--Cropped to remove excess whitespace-->
+                <img src="images/cropped-feedback-icon.png" alt="feedback icon" width="35" height="35">
+            </div>
+
+            <h3>Feedback</h3>
+
+        </header>
+
+            <!-- Feedback Form Heading -->
+            <h3 class="feedback-heading">Do let me know what you think about my website's design</h3>
+            
+            <!-- Feedback Form Div -->
+            <div class="feedback-container">
+                <div class="feedback-box">
+                    <form id="feedback">
+                        <div id="grid-layout-items">
+                            <label class="black-text">First Name: </label>
+                            <input id="first-name" class="default-input" name="firstName" type="text" placeholder="First Name" required />
+                            <label class="black-text">Last Name: </label>
+                            <input id="last-name" class="default-input" name="lastName" type="text" placeholder="Last Name" required>
+                            <label class="black-text">Email: </label>
+                            <input id="email" class="default-input" name="email" type="email" placeholder="Email" required>
+                            <label class="black-text">Phone Number: </label>
+                            <input id="phone-number" class="default-input" name="phoneNumber" type="tel" placeholder="e.g. 81112222" pattern="[0-9]{8}" required>
+                            <label class="black-text">Date of Birth: </label>
+                            <input id="dob-input" name="dateOfBirth" type="date" required>
+                        </div>
+                        <div class="formRow"> 
+                            <label class="black-text" id="checkbox-question">Overall, what did you like about this website's design and content?</label>
+                            <input name="color-scheme" type="checkbox">
+                            <label class="black-text checkbox-label">Color Scheme</label>
+                            <input name="layout" type="checkbox">
+                            <label class="black-text checkbox-label">Layout</label>
+                            <input name="informative" type="checkbox">
+                            <label class="black-text checkbox-label">Informative</label>
+                        </div>
+                        <div class="formRow long-row">
+                            <label class="black-text long-row-label">Which webpage did you like the most?</label>
+                            <select name="webpages">
+                                <option class="black-text">Select.....</option>
+                                <option class="black-text" value="Home">Home page (index.html)</option>
+                                <option class="black-text" value="About-me">About Me page (about.html)</option>
+                                <option class="black-text" value="Experience">SP and SoC Experience page (experience.html)</option>
+                                <option class="black-text" value="Career-prospects">Career Prospects page (career.html)</option>
+                            </select>
+                        </div>
+                        <div class="formRow"> 
+                            <h3 class="black-text" id="rating-heading">Rate My Website</h3>
+                            <br>
+                        </div>
+                        <div class="long-row-padding" id="radio-button-row">
+                            <div>
+                                <label class="black-text">Poor</label>
+                            </div>
+                            <div class="radio-button-item">
+                                <input type="radio" name="radio-button-grp1">
+                                <label class="black-text">1</label>
+                            </div>
+                            <div class="radio-button-item">
+                                <input type="radio" name="radio-button-grp1">
+                                <label class="black-text">2</label>
+                            </div>
+                            <div class="radio-button-item">
+                                <input type="radio" name="radio-button-grp1">
+                                <label class="black-text">3</label>
+                            </div>
+                            <div class="radio-button-item">
+                                <input type="radio" name="radio-button-grp1">
+                                <label class="black-text">4</label>
+                            </div>
+                            <div class="radio-button-item">
+                                <input type="radio" name="radio-button-grp1">
+                                <label class="black-text">5</label>
+                            </div>
+                            <div class="radio-button-item">
+                                <label class="black-text">Excellent</label>
+                            </div>
+                        </div>
+                        <div class="formRow long-row">
+                            <label class="black-text long-row-label">Would you recommend this website to others?</label>
+                        </div>
+                        <div class="long-row-padding">
+                            <label class="black-text">0</label>
+                            <input type="range" min="0" max="10" step="1" value="5">
+                            <label class="black-text">10</label>
+                        </div>
+                        <div class="formRow" id="textbox-heading">
+                            <label class="black-text">Other feedback or suggestions to be made: </label>
+                        </div>
+                        <div>
+                            <textarea id="textbox"></textarea>
+                        </div>
+                        <div id="submit-button-position">
+                            <input type="submit" class="black-text" id="submit-button" onclick="return submitForm();">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Feedback form JS script -->
+            <script src="js/form.js"></script>
+
+        <!-- Footer Div -->
+        <footer>
+
+            <div id="footer-icons">
+
+                <!-- Instagram Icon Source: https://icons8.com/icons/set/instagram -->
+                <a class="footer-icon" href="https://www.instagram.com/reuben_seah/" target="_blank"><img src="images/instagram.png" alt="instagram icon"></a>
+
+                <!-- Discord Icon Source: https://icons8.com/icons/set/mail -->
+                <a class="footer-icon" href="mailto:masterx145@gmail.com" target="_blank"><img src="images/mail.png" alt="mail icon"></a>
+
+                <!-- Facebook Icon Source: https://icons8.com/icons/set/facebook -->
+                <a class="footer-icon" href="https://www.facebook.com/reuben.seah.3" target="_blank"><img src="images/facebook.png" alt="facebook icon"></a>
+            </div>
+            <div id="copyright">
+                <p>©2022 Reuben Seah</p>
+            </div>
+        </footer>
+    </body>
+</html>
