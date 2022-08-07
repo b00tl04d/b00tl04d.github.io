@@ -1,154 +1,72 @@
 @charset "utf-8";
 
-/* About Me Introduction Styles */
-.no-resize {
-    min-width: 250px;
-    min-height: 300px;
+/* Digital Clock Styles */
+#clock{
+    font-family: "Digital-7", sans-serif;
+    font-size:70px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+}
+
+#clock span {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow:0px 0px 1px #333;
+    font-size:50px;
+    position:relative;
+    top:-5px;
+    left:10px;
+}
+#date {
+    letter-spacing:3px;
+    font-size:25px;
+    font-family:arial,sans-serif;
+    color:#fff;
 }
 
 
-/* Hobby Styles uses custom @media rules for the hobby borders */
-/* For even smaller devices */
-@media only screen and (min-width: 0px) {
-    #custom-hobby-one {
-        background-color: #660000;
-        border: 2px solid black;
-    }
-
-    #custom-hobby-two {
-        background-color: #00331a;
-        border-left: 2px solid black;
-        border-right: 2px solid black;
-    }
-
-    #custom-hobby-three {
-        background-color: #003366;
-        border: 2px solid black;
-    }
-
+/* Index Styles */
+.sp-text {
+    color: red;
 }
 
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
-    #custom-hobby-one {
-        background-color: #660000;
-        border: 2px solid black;
-    }
-
-    #custom-hobby-two {
-        background-color: #00331a;
-        border-left: 2px solid black;
-        border-right: 2px solid black;
-    }
-
-    #custom-hobby-three {
-        background-color: #003366;
-        border: 2px solid black;
-    }
-
+div#about-background {
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../images/daftpunk-background.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
 }
 
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-    #custom-hobby-one {
-        background-color: #660000;
-        border: 2px solid black;
-    }
-
-    #custom-hobby-two {
-        background-color: #00331a;
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
-    }
-
-    #custom-hobby-three {
-        background-color: #003366;
-        border-left: 2px solid black;
-        border-right: 2px solid black;
-        border-bottom: 2px solid black;
-    }
-
+div#career-background {
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ) ,url(../images/coding-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-    #custom-hobby-one {
-        background-color: #660000;
-        border: 2px solid black;
-    }
-
-    #custom-hobby-two {
-        background-color: #00331a;
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
-    }
-
-    #custom-hobby-three {
-        background-color: #003366;
-        border: 2px solid black;
-    }
-
+div#experience-background {
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../images/sp-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
 }
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-    #custom-hobby-one {
-        background-color: #660000;
-        border: 2px solid black;
-    }
-
-    #custom-hobby-two {
-        background-color: #00331a;
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
-    }
-
-    #custom-hobby-three {
-        background-color: #003366;
-        border: 2px solid black;
-    }
+div#feedback-background {
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../images/feedback-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
 }
 
-
-/* Tic Tac Toe Styles */
-.cell {
-    font-family: cursive;
-    width: 100px;
-    height: 100px;
-    box-shadow: 2px 2px 2px 2px #ecd7ba;
-    border: 2px solid #ecd7ba;
-    cursor: pointer;
-    line-height: 100px;
-    font-size: 60px;
+.btn-danger {
+    border: 0.5px solid black;
 }
 
-.game-title {
-    font-size: 100px;
-    color: #d7a62f;
-    margin: 10px auto;
-}
-
-.game-container {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    width: 306px;
-    margin: 10px auto;
-    background-color: #11213a;
-    color: #04c0b2;
-}
-
-.game-status {
-    font-size: 23px;
-    color: #d7a62f;
-    margin: 20px auto;
-}
-
-.game-restart {
-    background-color: #f7e4ac;
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    color: #5586e2;
-    box-shadow: 2px 2px 2px 2px #d86c23;
-    border: 2px solid #d86c23;
+.btn-danger:hover {
+    border: 0.5px solid black;
+    transition: transform .2s;
+    transform: scale(1.2);
 }
