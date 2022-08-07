@@ -37,7 +37,7 @@
 }
 
 div#about-background {
-    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../images/daftpunk-background.jpg);
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url("../images/daftpunk-background.jpg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@ div#about-background {
 }
 
 div#career-background {
-    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ) ,url(../images/coding-background.jpg);
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ) ,url("../images/coding-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,7 +53,7 @@ div#career-background {
 }
 
 div#experience-background {
-    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../images/sp-background.jpg);
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url("../images/sp-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +61,7 @@ div#experience-background {
 }
 
 div#feedback-background {
-    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../images/feedback-background.png);
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url("../images/feedback-background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
