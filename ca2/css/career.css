@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* Disable contain rules for career page */
+html {
+    contain: none;
+}
+
+body {
+    contain: none;
+}
+
+
+/* Module Styles */
+.custom-padding {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    width: 94%;
+}
+
+
+/* Module Modal Styles */
+.modal-content {
+    background-color: gray;
+}
+
+.modal-footer > button {
+    background-color: #0099ff;
+}
+
+body.modal-open {
+    overflow-y: scroll !important;
+    padding-right: 0px !important;
+}
+
+
+/* Career page Button Styles */
+.btn-primary:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+
+.btn-warning:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+
+
+/* Career Options Styles */
+#career-background {
+    background-color: #066634;
+}
+
+
+/* Career Options Accordion Styles */
+h2.accordion-header > button > strong {
+    color: black;
+}
+
+.accordion-collapse {
+    background-color: #993333;
+}
+
+
+/* Cyber NSF Scheme Styles */
+#cyber-nsf-background {
+    align-items: center;
+    background-color: #003366;
+    background-image: linear-gradient( rgba(0,0,0,.79), rgba(0,0,0,.79) ) ,url(../images/nsf-scheme-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

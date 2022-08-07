@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* HTML Styles */
+html {
+    contain: content;
+}
+
+
+/* Body Styles */
+body {
+    background-color: #012236;
+    contain: content;
+}
+
+.custom-nav-bg-colour {
+    background-color: #4D4D4D;
+}
+
+.navbar-brand:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+
+.link-text-shadow {
+    text-decoration: none;
+    text-shadow: 1.4px 1.4px gray;
+}
+
+.custom-sp-text {
+    color: red;
+    text-shadow: 2.5px 2.5px black;
+}
+
+.nav-link:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+
+
+/* footer styles */
+.fa-instagram:hover {
+    transition: transform .2s;
+    transform: scale(1.4);
+}
+
+.fa-envelope:hover {
+    transition: transform .2s;
+    transform: scale(1.4);
+}
+
+.fa-facebook:hover {
+    transition: transform .2s;
+    transform: scale(1.4);
+}
