@@ -1,6 +1,13 @@
 @charset "utf-8";
 
 /* Digital Clock Styles */
+@font-face {
+    font-family: 'Digital-7';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/digital-7.woff") format('woff');
+}
+
 #clock{
     font-family: "Digital-7", sans-serif;
     font-size:70px;
