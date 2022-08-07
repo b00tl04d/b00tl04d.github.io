@@ -3,7 +3,7 @@
 /* Digital Clock Styles */
 /* Digital-7 Font from "https://www.cdnfonts.com/digital-7-mono.font" */
 @font-face {
-    font-family: 'Digital-7';
+    font-family: "Digital-7";
     font-style: normal;
     font-weight: 400;
     src: url("../fonts/digital-7.woff") format("woff");
